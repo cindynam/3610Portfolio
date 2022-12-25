@@ -36,7 +36,7 @@ new Chart(document.getElementById("doughnut-chart"), {
                 display: true,
                 text: 'Steam Games by Genre by Cindy Nam',
                 font: {
-                    size: 35,
+                    size: 25,
                 }
             },
             legend: {
@@ -44,7 +44,7 @@ new Chart(document.getElementById("doughnut-chart"), {
                 labels: {
                     textAlign: 'center',
                     font: {
-                        size: 20,
+                        size: 15,
                     }
                 }
             }
@@ -91,7 +91,7 @@ new Chart(document.getElementById("bar-chart-horizontal"), {
                 display: true,
                 text: 'Steam Games by Genre by Cindy Nam',
                 font: {
-                    size: 35,
+                    size: 25,
                 }
             }
         }

@@ -2,34 +2,34 @@ body {
     background-image: url('assets/bg.png');
     background-repeat: no-repeat;
     background-attachment: local;
-    background-position: center;
+    background-position: top;
 }
 
 .hajime {
-    position: relative;
-    left: 960px;
-    bottom: -80px;
+    position: absolute;
+    left: 950px;
+    bottom: 350px;
     animation: hajime infinite;
 }
 
 .tomoya {
-    position: relative;
+    position: absolute;
     left: 0px;
-    bottom: -80px;
+    bottom: 350px;
     animation: tomoya 5s ;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 @keyframes tomoya {
-    from {left: 0px;}
-    to {left: 205px;}
+    from {left: 350px;}
+    to {left: 650px;}
   }
 
 .speech-bubble p{
-    position: relative;
-    left: 400px;
-    top: -370px;
+    position: absolute;
+    left: 1250px;
+    bottom: 680px;
     background: #ffffff;
     border: 1px solid #000000;
     border-radius: 5px;
@@ -58,8 +58,8 @@ body {
 }
 
 .button {
-    position: relative;
-    left: 385px;
-    bottom:40px;
+    position: absolute;
+    left: 392px;
+    bottom:300px;
 }
 

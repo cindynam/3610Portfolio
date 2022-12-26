@@ -1,42 +1,45 @@
-body {
-    background-image: url('assets/bg.png');
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-position: top;
+.bg {
+    position: absolute;
+    left:0px; 
+    top:0px; 
+    width:1136px; 
+    height:640px; 
+    border:none;
 }
+
 
 .hajime {
     position: absolute;
-    left: 950px;
-    bottom: 350px;
+    left: 550px;
+    bottom: 30px;
     animation: hajime infinite;
 }
 
 .tomoya {
     position: absolute;
     left: 0px;
-    bottom: 350px;
+    bottom: 30px;
     animation: tomoya 5s ;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 @keyframes tomoya {
-    from {left: 370px;}
-    to {left: 630px;}
+    from {left: -10px;}
+    to {left: 220px;}
   }
 
-.speech-bubble p{
+.speech-bubble {
     position: absolute;
-    left: 1250px;
-    bottom: 680px;
+    left: 840px;
+    bottom: 370px;
     background: #ffffff;
     border: 1px solid #000000;
     border-radius: 5px;
-    padding: 7px;
+    padding: 3px;
     font-size: 14px;
     width: 150px;
-    margin: 50px auto;
+    margin: 30px auto;
     text-align: center;
     font-weight: 70;
     font-family: arial;
@@ -44,7 +47,7 @@ body {
 
 
 
-.speech-bubble p:before {
+.speech-bubble:before {
     content: "";
     width: 0px;
     height: 0px;
@@ -57,9 +60,5 @@ body {
     bottom: -10px;
 }
 
-.button {
-    position: absolute;
-    left: 392px;
-    bottom:300px;
-}
+
 
